@@ -32,3 +32,4 @@ Executar de forma isolada, determinística e atômica a tarefa com menor índice
 5. **Finalização:**
    - Mova o arquivo de `tasks/em_andamento/<arquivo>` para `tasks/concluidas/`.
    - Encerre a resposta sem iniciar novos processamentos.
+   - Formato de resposta final: Responda estritamente com uma única linha no padrão `DONE: <nome_do_arquivo>`.

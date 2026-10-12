@@ -8,7 +8,7 @@ DONE_DIR="tasks/concluidas"
 mkdir -p "$SRC_DIR" "$WIP_DIR" "$DONE_DIR"
 
 # Seleciona o primeiro arquivo por ordenação natural (versão)
-TARGET=$(find "$SRC_DIR" -maxdepth 1 -type f -name "*.md" | sort -V | head -n 1 || true)
+TARGET=$(find "$SRC_DIR" -maxdepth 1 -type f -name "*.xml" | sort -V | head -n 1 || true)
 
 if [[ -z "$TARGET" ]]; then
     echo "NO_TASKS"
